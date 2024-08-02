@@ -1,0 +1,22 @@
+@import "desktop.css";
+
+.intro-left{
+    height: 30vh;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+body{
+    font: 2rem;
+}
+
+.cards img{
+    max-height: 50rem;
+    width: auto;
+}
+
+.projects img{
+    width: 100%;
+    height: auto;
+}

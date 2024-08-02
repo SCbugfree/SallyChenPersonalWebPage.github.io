@@ -1,153 +1,196 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Sally</title>
-	</head>
 
-		<style>
-			body {
-				background-image:url(homepageImg.jpeg);
-				background-repeat: no-repeat;
-				background-size: cover;
-			}
-			h1 {color: orange;}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Sally Chen">
+    <title>Portfolio</title>
+    <link rel = "stylesheet" href = "css/bootstrap.min.css">
+    
+    <!-- 480 - 481 ----------- 960 - 961 --->   
+    <link rel = "stylesheet" media = "only screen and (max-width: 600px)" href = "styles/mobile.css">
 
-			svg {
-				max-width: 10vw;
-				max-height: 10vw;
-				margin-left: auto;
-				margin-right:auto;
-				display: block;
-			}
+    <!-- Media query for full browser width -->
+    <link rel = "stylesheet" media = "only screen and (min-width: 601px)" href = "styles/desktop.css">
 
-			.logo {
+    <!--Google Fonts Reference-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
 
-			}
+<body>
+    <div class = "intro-left">
+        <div class = "container-fluid full-height">
+            <div class = "row text-center align-items-center full-height">
+                <div class = "col">
+                    <img src = "images/goat.jpeg" class = "avatar" alt = "User Avatar">
+                    <p class = "display-6">Sally Chen</p>
+                    <div class = "navbar">
+                        <ul>
+                            <li><a href= "#intro">About</a></li>
+                            <li><a href= "#projects" style="text-align:left">Projects</a></li>
+                            <li><a href= "#cards" style="text-align:left">Cards</a></li>
+                            <li><a href= "#video" style="text-align:left">Video</a></li>
+                            <li><a href= "#blog" style="text-align:left">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
 
-			.cls-1:hover{
-				transform-origin: center;
-				transform:scale(.8);
-				transition:transform 500ms ease-in-out;
-				fill:white;
-			}
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class = "col-md-4"></div>
+            <div class = "col-md-8">
+                <section class = "quote">
+                    <figure>
+                        <blockquote class = "blockquote">
+                            <p>
+                                "Entertainment, in the end, is a food industry for feeling."
+                            </p>
+                        </blockquote>
+                         <figcaption class = "block-footer">
+                            - Jenova Chen
+                        </figcaption>
+                    </figure>
+                </section>
 
-			.cls-1:active{
-				fill:lightgoldenrodyellow;
-			}
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
 
-			.cls-2:hover{
-				transform-origin: center;
-				transform:scale(.8);
-				transition:transform 500ms ease-in-out;
-				fill:white;
-			}
+                <section class = "intro" id = "intro">
+                    <h1 class = "display-4">Portfolio Page</h1>
+                    <!--Bootstrap class element: mb = marigin button, used to adjust margin-->
+                    <br>
+                    <br>
+                    <p>Hi friend. I'm <b>Sally Chen</b>, a game design student at NYU.
+                    <p>This is a <b>portfolio page</b> for demonstration of past artworks.</p>               
+                    <p>I'm interested in exploring the potential in video games, especially the emotional value they bring to players. One of my favorite game designer is Jenova Chen, who designed Journey and Sky: Children of the Light.</p>
+                    <p>His games inspired my ambition to become a concept artist or game developer!</p>
+                </section>
 
-			.cls-2:active{
-				fill:lightgoldenrodyellow;
-			}
+                <section class = "projects" id = "projects">
+                    <h2 class = "display-6">My Observational Studies:</h2>
+                    <br>
+                    <br>
+                    <div class = "container-fluid">
+                        <div class = "row gy-5">
+                            <div class = "col-md-6 "><img src = "images/flower.JPG" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/youtiao.JPG" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/lotus.JPG" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/icecream.png" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/fishside.JPG" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/face.png" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/glass.JPG" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/cloth.JPG" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/bells.jpg" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/HongKong.JPG" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/black.jpg" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/tank.jpg" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/fishlarge.JPG" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6"><img src = "images/plant.jpg" alt = "Portfolio Image" class = "img-fluid thumbnail"></div>
+                            
+                        </div>
+                    </div>
+                </section>
 
-			.cls-3:hover{
-				transform-origin: center;
-				transform:scale(.8);
-				transition:transform 500ms ease-in-out;
-				fill:white;
-			}
+                <section class = "cards" id = "cards">
+                    <h2 class = "display-6">My Card Design:</h2>
+                    <br>
+                    <br>
+                    <div class = "container-fluid">
+                        <div class = "row gy-5">
+                            <div class = "col-md-6 "><img src = "images/armor.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/wings.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/goth.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/punk.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/back.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/f2.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/fk.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/fk1.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/permaCard.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                            <div class = "col-md-6 "><img src = "images/starCard.png" alt = "Card Image" class = "img-fluid thumbnail"></div>
+                        </div>
+                    </div>
+                </section>
 
-			.cls-3:active{
-				fill:lightgoldenrodyellow;
-			}
+                <section class = "video" id = "video">
+                    <h2 class = "display-6">My Edited Video Sample</h2>
+                    <video width="720" height="480" controls muted>
+                        <source src="videos/wake.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                      </video>
+                </section>
 
+                <section class = "blog" id = "blog">
+                    <h2 class = "display-6">Read more about me</h2>
+                    <br>
+                    <div class = "container-fluid">
+                        <div class = "row gx-5">
 
-		</style>
+                            <div class = "col-md-4">
+                                <div class="card">
+                                    <img src="images/pp.png" class= "card-img-top" alt="card image">
+                                    <div class= "card-body">
+                                        <h5 class= "card-title">My Webpage Design</h5>
+                                        <p class= "card-text">Webpage design assignment for web design courses</p>
+                                        <a href="https://i6.cims.nyu.edu/~jc11618/Assignment6/index.html" class="btn btn-outline-secondary">
+                                            View Page
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
-	<body>
-		
-			<br />
+                            <div class = "col-md-4">
+                                <div class= "card">
+                                    <img src="images/home.png" class="card-img-top" alt = "card image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">My Homepage</h5>
+                                        <p class="card-text">Homepage design assignment for web design courses</p>
+                                        <a href="https://i6.cims.nyu.edu/~jc11618/" class="btn btn-outline-secondary">
+                                            Go to Home
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
-			<h1 style = "text-align: center;">Sally Chen's Assignment Homepage.</h1>
+                            <div class = "col-md-4">
+                                <div class= "card">
+                                    <img src="images/itch.png" class="card-img-top" alt = "card image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">My itch.io Page</h5>
+                                        <p class="card-text">My itch.io page where I publish my games</p>
+                                        <a href="https://sallyc.itch.io/" class= "btn btn-outline-secondary">
+                                            Read more
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-			<br/>
+                    </div>
+                </section>
 
-			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.55 319.29">	
+                <footer class = "footer">
+                    <div class = "container-fluid">
+                        <span class = "text-muted">
+                            Made with 
+                            <a href = "https://mdbootstrap.com">Bootstrap.com</a>
+                        </span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
 
-			  <defs>
-
-			    <style>
-
-			      .cls-1 {
-			        fill: url(#linear-gradient);
-			      }
-
-			      .cls-1, .cls-2, .cls-3 {
-			        fill-rule: evenodd;
-			      }
-
-			      .cls-2 {
-			        fill: url(#linear-gradient-3);
-			      }
-
-			      .cls-3 {
-			        fill: url(#linear-gradient-2);
-			      }
-
-			    </style>
-
-			    <linearGradient id="linear-gradient" x1="0" y1="130.82" x2="84.23" y2="130.82" gradientUnits="userSpaceOnUse">
-			      <stop offset="0" stop-color="#9ee0f4"/>
-			      <stop offset=".07" stop-color="#9bd6ef"/>
-			      <stop offset=".13" stop-color="#99cceb"/>
-			      <stop offset=".25" stop-color="#aad2ee"/>
-			      <stop offset=".39" stop-color="#a0bbed"/>
-			      <stop offset=".7" stop-color="#8a83ec"/>
-			      <stop offset="1" stop-color="#ea83ff"/>
-			    </linearGradient>
-
-			    <linearGradient id="linear-gradient-2" x1="14.61" y1="159.64" x2="164.33" y2="159.64" gradientUnits="userSpaceOnUse">
-			      <stop offset=".04" stop-color="#e9cef6"/>
-			      <stop offset=".3" stop-color="#e98ff6"/>
-			      <stop offset=".34" stop-color="#d091f0"/>
-			      <stop offset=".45" stop-color="#9297e1"/>
-			      <stop offset=".52" stop-color="#669cd7"/>
-			      <stop offset=".72" stop-color="#a5f0ff"/>
-			    </linearGradient>
-
-			    <linearGradient id="linear-gradient-3" x1="112.87" y1="145.32" x2="196.55" y2="145.32" gradientUnits="userSpaceOnUse">
-			      <stop offset="0" stop-color="#15c7ff"/>
-			      <stop offset=".48" stop-color="#fea1ff"/>
-			      <stop offset=".71" stop-color="#ffbff6"/>
-			      <stop offset="1" stop-color="#fdd4ff"/>
-			    </linearGradient>
-
-			  </defs>
-				<a href = "https://en.wikipedia.org/wiki/H">
-			  	<polygon class="cls-1" points="47.92 203.35 16.45 203.35 15.27 201.32 15.27 201.31 26.46 181.94 26.46 104.12 16.75 87.29 15.57 85.26 0 58.29 55.23 58.29 55.23 116.06 84.23 116.06 84.23 140.46 83.66 143.5 83.66 145.5 55.23 145.06 55.23 203.35 49.93 203.35 47.92 203.35"/></a>
-
-				<a href = "https://en.wikipedia.org/wiki/J">
-			 	 <polygon class="cls-3" points="164.33 0 148.52 27.38 147.58 29 112.52 29 112.52 319.29 49.24 319.29 47.9 316.97 32.5 290.29 31.35 288.31 25.46 278.1 15.59 261 14.61 259.31 25.46 240.52 30.38 232 63.86 232 54.23 248.69 47.93 259.6 48.73 261 54.23 270.52 64.47 288.26 65.64 290.29 83.23 290.29 83.23 29 48.67 29 47.86 27.6 31.92 0 164.33 0"/></a>
-
-			  	<a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-			  	<polygon class="cls-2" points="195.55 174.35 179.81 201.62 178.81 203.35 147.33 203.35 146.15 201.32 139.52 189.83 130.59 174.35 129.41 172.32 113.67 145.06 112.87 143.66 128.8 116.06 129.61 114.66 139.52 97.49 145.41 87.29 181.11 87.29 196.55 114.03 195.38 116.06 161.89 116.06 146.15 143.32 146.15 143.33 147.16 145.06 162.89 172.32 164.07 174.35 195.55 174.35"/></a>
-
-			</svg>
-
-			<br/>
-
-			<p style = "color: white; font-family: serif; font-size:46px; text-align: center;">This website is built for Web Design Class</p>
-
-			<br/>
-
-			<br/>
-
-			<p style = "text-align: center; color: white; font-size: 30px">Build time: Spring 2024</p>
-
-			<h1 style = "font-family: serif; text-align: center;">Links to Assignments</h1>
-
-			<p style = "text-align:center;"><a href = "Assignment2/index.html"><strong>Assignment2</strong></a></p>
-
-			<p style = "text-align:center;"><a href = "Assignment4/index.html"><strong>Assignment4</strong></a></p>
-
-			<p style = "text-align:center;"><a href = "Assignment6/index.html"><strong>Assignment6</strong></a></p>
-
-	</body>
+</body>
 
 </html>

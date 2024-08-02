@@ -1,0 +1,107 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.intro-left{
+    background-image: url("../images/fish.JPG");
+    position: fixed;
+    left: 0;
+    width: 33%;
+    height: 100%;
+    color: white;
+}
+
+.avatar{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+/*Set section to full height*/
+.full-height{
+    height: 100%;
+}
+
+.quote{
+    float: right;
+}
+
+section{
+    margin: 5rem;
+    font-size: 1.2rem;
+}
+
+.card-imgae-top{
+    width: 50%;
+}
+
+a {
+    color:#444;
+    text-decoration: none;
+}
+
+.footer{
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+img {
+    object-fit: cover;
+    max-height:80rem;
+    width: auto;
+}
+
+.cards img{
+    max-height: 80rem;
+    width: auto;
+}
+
+h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 5rem;
+}
+
+h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 2rem;
+}
+
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+video{
+    display: block;
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar a{
+    color: white;
+    margin-left: 0;
+}
+
+
+
+  
+
